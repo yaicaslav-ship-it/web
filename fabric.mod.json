@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "jimhelper",
+  "version": "${version}",
+  "name": "JimHelper",
+  "description": "Places cobwebs through player hitboxes",
+  "authors": [
+    "Jim"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.jimhelper.JimHelperClient"
+    ]
+  },
+  "mixins": [
+    "jimhelper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
